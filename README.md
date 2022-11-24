@@ -12,5 +12,6 @@ func Shuffle(n int, swap func(i, j int))
 
 Sample Input:
 1 2 3 4 5 6
+
 Sample Output:
 [2 4 5 6 1 3]
