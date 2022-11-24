@@ -10,6 +10,9 @@ import (
 
 // shuffle перемешивает элементы nums in-place.
 func shuffle(nums []int) {
+	rand.Shuffle(len(nums), func(i, j int) {
+		nums[i], nums[j] = nums[j], nums[i]
+	})
 	// перетасуйте nums с помощью rand.Shuffle()
 }
 
